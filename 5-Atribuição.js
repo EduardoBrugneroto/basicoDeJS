@@ -15,7 +15,7 @@ console.log(`meu nome é ${nome}`);
 
 
 let primeiroNome = "Carlos";
- let depoisDoNome = "Silva";
+let depoisDoNome = "Silva";
 
  primeiroNome = primeiroNome + depoisDoNome; 
  
