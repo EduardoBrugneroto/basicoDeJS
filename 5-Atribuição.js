@@ -14,7 +14,8 @@ console.log(`meu nome é ${nome}`);
 //mes = "janeiro";
 
 
- let primeiroNome = "Carlos";
+// "let" é um tipo de váriavel que pode varias ou seja pode ser mudada 
+let primeiroNome = "Carlos";
  let depoisDoNome = "Silva";
 
  primeiroNome = primeiroNome + depoisDoNome; 

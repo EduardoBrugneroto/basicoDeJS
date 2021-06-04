@@ -18,7 +18,7 @@ if (idadeComprador >= 18 || estaAcompanhado){
     console.log("Comprou a viagem");
     listaDeDestinos.splice(2,1);
 }else{
-    console.log("O Comprador é menor de idade e não esta acompanhado , não posso vender a passagem")
+    console.log("O Comprador é menor de idade e não esta acompanhado , não posso vender a passagem");
 }
 
 console.log("Embarque: \n\n")
