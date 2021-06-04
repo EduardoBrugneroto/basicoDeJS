@@ -8,15 +8,16 @@ const listaDeDestinos = new Array (
 );
 
 
-const idadeComprador = 15;
+const idadeComprador = 10;
+const estaAcompanhado = true 
 listaDeDestinos.push (`Curitiba`); 
 console.log (listaDeDestinos);
 
-if (idadeComprador >= 18){
-    console.log("Comprou a viagem de São Paulo");
-    listaDeDestinos.splice(1,1);
+if (idadeComprador >= 18 || estaAcompanhado){
+    console.log("Comprou a viagem");
+    listaDeDestinos.splice(2,1);
 }else{
-    console.log("O Comprador é menor de idade, não posso vender a passagem")
+    console.log("O Comprador é menor de idade e não esta acompanhado , não posso vender a passagem")
 }
 
 
