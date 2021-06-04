@@ -9,7 +9,8 @@ const listaDeDestinos = new Array (
 
 
 const idadeComprador = 10;
-const estaAcompanhado = true 
+const estaAcompanhado = false;
+const temPassagemComprada = true;
 listaDeDestinos.push (`Curitiba`); 
 console.log (listaDeDestinos);
 
@@ -19,6 +20,14 @@ if (idadeComprador >= 18 || estaAcompanhado){
 }else{
     console.log("O Comprador é menor de idade e não esta acompanhado , não posso vender a passagem")
 }
+
+console.log("Embarque: \n\n")
+if (idadeComprador >= 18 && temPassagemComprada){
+    console.log("Boa Viagem!!");
+}else {
+    console.log("Você não pode embarcar");
+}
+
 
 
 
